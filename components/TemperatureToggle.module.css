@@ -1,0 +1,46 @@
+/* TemperatureToggle.module.css */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #007bff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.input-checkbox:checked + .toggle-switch .toggle-slider {
+  background-color: #007bff;
+}
+
+.input-checkbox:checked + .toggle-switch .toggle-slider:before {
+  transform: translateX(20px);
+}
+
+.input-checkbox {
+  display: none;
+}

@@ -1,0 +1,16 @@
+/* styles/components/WeatherCard.module.css */
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-card h2 {
+  margin-top: 0;
+}
+
+.weather-card div {
+  margin-bottom: 10px;
+}

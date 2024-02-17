@@ -1,0 +1,13 @@
+/* styles/pages/details.module.css */
+
+.forecastList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.forecastItem {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}

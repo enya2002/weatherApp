@@ -1,0 +1,9 @@
+/* styles/pages/index.module.css */
+
+.search-input {
+  margin-bottom: 10px;
+}
+
+.search-button {
+  text-align: right;
+}
